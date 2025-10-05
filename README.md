@@ -12,8 +12,5 @@ A production-ready Retrieval-Augmented Generation (RAG) microservice built with 
 - **Evaluation**: Built-in evaluation harness with multiple metrics
 - **Docker**: Containerized deployment with docker-compose
 
-## Quick Start
 
-### Local Development
 
-1. **Install dependencies**:
