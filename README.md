@@ -1,16 +1,15 @@
-# RAG Microservice
+# ⚡ Robust RAG Microservice
 
-A production-ready Retrieval-Augmented Generation (RAG) microservice built with FastAPI, featuring document ingestion, semantic search, and comprehensive observability.
+An enterprise-level Retrieval-Augmented Generation (RAG) backend microservice. Built for high concurrency and low latency, this API leverages FastAPI for asynchronous routing and FAISS for high-density neural vector search.
 
-## Features
+## 🚀 Key Features
+- **Asynchronous FastAPI:** High-throughput, non-blocking REST endpoints.
+- **Neural Vector Search (FAISS):** Lightning-fast semantic similarity retrieval using Facebook AI Similarity Search.
+- **Semantic Embeddings:** Utilizes `sentence-transformers` for deep contextual understanding of text.
+- **Enterprise Observability:** Includes confidence scoring, structured logging, and error handling.
 
-- **Document Ingestion**: Supports PDF and Markdown files with intelligent chunking
-- **Semantic Search**: Uses sentence-transformers for embedding and Chroma for vector storage
-- **FastAPI**: RESTful API with automatic OpenAPI documentation
-- **Observability**: Structured logging, Prometheus metrics, and request tracing
-- **HITL Support**: Confidence scoring with human-in-the-loop escalation
-- **Evaluation**: Built-in evaluation harness with multiple metrics
-- **Docker**: Containerized deployment with docker-compose
-
-
-
+## 🛠️ Tech Stack
+- Python (FastAPI)
+- FAISS (Vector Database)
+- Sentence-Transformers (HuggingFace)
+- Uvicorn
